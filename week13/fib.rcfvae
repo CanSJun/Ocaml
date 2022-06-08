@@ -1,0 +1,1 @@
+let rec fib = (fun x -> if x < 3 then if 0 < x then 1 else 0 endif else (fib (x - 1)) + (fib (x - 2)) endif) in fib 10
